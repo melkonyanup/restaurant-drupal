@@ -1,0 +1,11 @@
+name = Restaurant Reservation Demo
+description = Provides demo content for Open Restaurant Reservation
+core = 7.x
+package = Open Restaurant Demo
+project = restaurant_reservation_demo
+dependencies[] = migrate
+dependencies[] = restaurant_reservation
+features[features_api][] = api:2
+files[] = migrations/slideshow.inc
+files[] = migrations/slide.inc
+files[] = migrations/text.inc
